@@ -74,24 +74,27 @@ function calculateIndividualEmployeeBonus( employee ) {
 
     else{
     }
-
-    return result;
-  }
-  // return new object with bonus results
   
-  let result = {
+    let result = {
     name: employee.name,
     bonusPercentage: bonusPercentage,
     totalCompensation: 'totalCompensation',
     totalBonus: 'totalBonus'
     }
 
-//console.log( 'call function to test for Atticus:', calculateIndividualEmployeeBonus(employees[0]) );
+    console.log(result);
+    return result;
+  }
+  // return new object with bonus results
+  
+
+
+
+
+// console.log( 'call function to test for Atticus:', calculateIndividualEmployeeBonus(employees[0]) );
 
 console.log( 'call function to test for Atticus:', calculateIndividualEmployeeBonus( employees[0] ));
 
 for(let individuals of employees){
-  console.log(`${individual.name}`, 'color: black; background: yellow;')
-  calculateIndividualEmployeeBonus
-
-}
+  console.log(`${individual.name}`, 'color: black; background: yellow;');
+  calculateIndividualEmployeeBonus}
